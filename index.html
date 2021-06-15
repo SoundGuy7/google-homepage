@@ -1,19 +1,31 @@
-<css>
-    body {
-        height: 100vh;
-        text-align: center;
-    }
-</css>
-
-
 <html>
-    
-    <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
 
-        <input id="search" type="text">
-        <input id="google" type="submit" value="Google Search">
-        <input id="google" type="submit" value="I'm Feeling Lucky">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li style="float:right" id="sign-in"><a href="">Sign in</a></li>
+                <li style="float:right"><a href="">Images</a></li>
+                <li style="float:right"><a href="">Gmail</a></li>
+            </ul>
+        </nav>
+    </head>
+
+    <body>
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div><br>
+
+        <div id="search">
+            <input type="text"><br>
+        </div>
+        <div id="buttons">
+            <input id="google" type="submit" value="Google Search">
+            <input id="lucky" type="submit" value="I'm Feeling Lucky">
+        </div>
     </body>
 
 </html>

@@ -1,0 +1,42 @@
+html {
+    font-family: arial;
+}
+
+body {
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+#sign-in {
+    background-color: rgb(52, 198, 255);
+    color: white;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+#search {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+#buttons {
+     margin-top: 20px;
+     text-align: center;
+ }
