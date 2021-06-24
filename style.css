@@ -52,12 +52,11 @@ a:hover {
 .microphone {
     width: 23px;
     height: 23px;
-    margin-left: -25px;
+    margin-left: 5px;
     cursor: pointer;
 }
 
 #searchbar {
-    text-align: center;
     display: flex;
     align-items: center;
     border: 1px solid #dfe1e5;
@@ -77,10 +76,16 @@ a:hover {
 }
 
 input[type=text] {
-    padding: 8px 195px;
-    margin: 8px 0;
+    font-size: 16px;
+    width: 485px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 50px;
     border: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 /* search buttons */
